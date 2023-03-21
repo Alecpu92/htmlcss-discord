@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenitore-nav{
+    background-color: lightskyblue;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    
+}
+#accedi{
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.contenitore-hero{
+    background-color: grey;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.download{
+    background-color: black;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 80px;
+}
+main{
+    justify-content: center;
+    text-align: center;
+}
+#contenitore-sezione1{
+    background-color: white;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.items-sezione1{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+#button{
+    width: 50px;
+}
+#contenitore-footer{
+    background-color: black;
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.items-footer{
+    background-color: red;
+    height: 150px;
+    width:100px;
+    margin-top: 50px;
+    
+}
+
+
