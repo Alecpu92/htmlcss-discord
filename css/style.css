@@ -35,45 +35,41 @@ li{
     border-radius: 20%;
     border-color: white;
 }
-/* #accedi{
-    width: 70px;
-    height: 30px;
-    background-color: white;
-    margin-right: 50px;
-    margin-top: 50px;
-    border-radius: 30%;
-} */
-.contenitore-hero{
-    background-color: grey;
-    min-height: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-.download{
-    background-color: black;
-    width: 100px;
-    height: 70px;
-    margin-bottom: 80px;
+.contenitore.hero{
+    background-color: red;
+    height: 400px;
+    width: 400px;   
 }
 main{
-    justify-content: center;
     text-align: center;
+    justify-content: center;
+    
 }
 #contenitore-sezione1{
     background-color: white;
     min-height: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    margin-right: 400px;
+
 }
 .items-sezione1{
-    background-color: black;
+    background-color: white;
     width: 300px;
     height: 300px;
-    margin-left: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
     margin-top: 200px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+    text-align: justify;
+}
+img{
+    margin-right: 200px;
 }
 #button{
     width: 50px;
@@ -89,8 +85,12 @@ main{
     background-color: red;
     height: 150px;
     width:100px;
-    margin-top: 50px;
-    
+    margin-top: 50px;   
 }
+#sezione-last{
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
+
 
 
