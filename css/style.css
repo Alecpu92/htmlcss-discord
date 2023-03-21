@@ -99,14 +99,15 @@ img{
     margin-bottom: 400px;
     font-size: 30px;
 }
-#last-button{
-    width: 150px;
+.last-button{
+    width: 100px;
     height: 60px;
     background-color: lightblue;
     border-radius: 20%;
     color: white;
     border-color: lightblue;
     font-size: 20px;
+    margin-top: 10px;
 }
 .ul-footer{
     display: block;
@@ -115,6 +116,13 @@ img{
 }
 .li-blue{
     color: blue;
+}
+#endfooter{
+    margin-top: 5px;
+    display: flex;
+    background-color:  rgb(59, 56, 56);
+    justify-content: space-between;
+    height: 100px;
 }
 
 
